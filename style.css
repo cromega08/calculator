@@ -1,0 +1,55 @@
+:root {
+    --main: #323232;
+    --cont: #FFF2F9;
+    --second: #FA4EAB;
+    --third: #FE83C6;
+    font-size: 2.3rem;
+    color: var(--second);
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+span {
+    color: var(--second);
+    font-size: 3.5em;
+}
+
+p {
+    color: var(--main);
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: solid;
+    border-radius: 10%;
+    border-color: var(--cont);
+    width: 7em;
+    height: 7em;
+    margin: .7em;
+}
+
+#screen {
+    border-radius: 1em;
+    background-color: var(--third);
+    width: 13em;
+    height: 2.2em;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 1em;
+}
+
+#numbers {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+@keyframes glow {
+    
+}
